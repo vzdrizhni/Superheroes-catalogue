@@ -1,3 +1,3 @@
-const heroesReducer = (state= []) => {
+export default heroesReducer = (state= []) => {
     return state;
 }
