@@ -14,7 +14,7 @@ class MarvelHeroes {
 
   charUrl = `?ts=${this.ts}&apikey=${this.PUBLIC_KEY}&hash=${this.hash}`;
 
-  getMarvelResponse = async(url) => {
+  getMarvelResponse = async (url) => {
     const res = await fetch(`${this.baseUrl}${url}${this.charUrl}`);
 
     if (!res.ok) {
@@ -22,12 +22,12 @@ class MarvelHeroes {
         `, received ${res.status}`)
     }
 
-    const body = await res.json();
-    return await body;
+    return await res.json();
   };
 
-  getAllCharacters = () => {
-    return this.getMarvelResponse(`characters`)
+  async getAllCharacters() {
+    const res = await this.getMarvelResponse(`characters`);
+    return res.data.results;
   }
 
   getCharacter(id) {
