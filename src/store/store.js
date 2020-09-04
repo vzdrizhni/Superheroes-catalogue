@@ -1,10 +1,24 @@
-import createStore from "redux";
-import MarvelHeroes from "../services/marvel-api-client";
-import heroesReducer from "../store/store";
+import {createStore} from "redux";
+import heroesReducer from "../reducers/heroes.reducer";
 
-const heroes = new MarvelHeroes();
+// const heroes = new MarvelHeroes();
 
-const initialState = async () => await heroes.getAllCharacters().then(body => body);
-console.log(initialState);
+// var result = 0;
 
-const store = createStore(heroesReducer, initialState);
+// heroes.getAllCharacters().then(body => result = body).then(() => console.log(result))
+// async function initialState() {
+//     return await heroes.getAllCharacters().then(body => body);
+// };
+
+const initialState = {
+    heroes: [
+        {
+            name: 'Spiderman'
+        }
+    ]
+}
+const store = createStore(heroesReducer, initialState.heroes);
+
+console.log(store.getState());
+
+export default store;

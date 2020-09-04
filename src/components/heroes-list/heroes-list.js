@@ -1,9 +1,16 @@
 import React from "react";
+import {connect} from 'react-redux';
 
-const HeroesList = () =>  {
-        return(
-            <div className='hero'>Hero</div>
-        )
+const HeroesList = ({heroes}) => {
+    console.log({heroes});
+  return (
+  <div className='hero'>{heroes.map(hero => {
+      console.log(hero.name);
+    return <div>{hero.name} </div>
+  })}</div>
+  )
 }
 
-export default HeroesList;
+const mapStateToProps = state => ({heroes: state});
+
+export default connect(mapStateToProps)(HeroesList);
