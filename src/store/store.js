@@ -11,11 +11,7 @@ import heroesReducer from "../reducers/heroes.reducer";
 // };
 
 const initialState = {
-    heroes: [
-        {
-            name: 'Spiderman'
-        }
-    ]
+    heroes: []
 }
 const store = createStore(heroesReducer, initialState.heroes);
 

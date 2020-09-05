@@ -1,0 +1,1 @@
+export const fillWithHeroes = (act) => ({type: 'FILL', act})
