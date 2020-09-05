@@ -2,6 +2,7 @@ import React from "react";
 import {connect} from 'react-redux';
 import {fillWithHeroes} from "../../actions";
 import MarvelHeroes from "../../services/marvel-api-client";
+import Hero from "../heroes/hero";
 
 class HeroesList extends React.Component {
 
@@ -18,11 +19,12 @@ class HeroesList extends React.Component {
 
   render() {
     const { heroes } = this.props
+    console.log(heroes);
     return (
       <div className='hero'>{heroes.map(hero => {
-          return <div>{hero.name}
-          </div>
-        })}</div>
+          return <Hero name={hero.name} events={hero.series.items} imgAdress={hero.thumbnail.path} ext={hero.thumbnail.extension}  />
+        })}
+      </div>
     )
   }
 }
