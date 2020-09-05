@@ -1,0 +1,7 @@
+.hero-card {
+    width: 400px;
+}
+
+.hero-card img {
+    width: inherit;
+}
