@@ -12,7 +12,7 @@ class MarvelHeroes {
     .MD5(this.ts + this.PRIV_KEY + this.PUBLIC_KEY)
     .toString();
 
-  charUrl = `?ts=${this.ts}&apikey=${this.PUBLIC_KEY}&hash=${this.hash}`;
+  charUrl = `?limit=100&ts=${this.ts}&apikey=${this.PUBLIC_KEY}&hash=${this.hash}`;
 
   getMarvelResponse = async (url) => {
     const res = await fetch(`${this.baseUrl}${url}${this.charUrl}`);
