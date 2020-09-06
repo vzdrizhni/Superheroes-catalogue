@@ -4,6 +4,7 @@ import {filterHeroes} from "../../actions";
 import Hero from "../heroes/hero";
 import SearchBox from '../search-box/search-box'
 import './heroes-list.css'
+import { act } from "@testing-library/react";
 
 class HeroesList extends React.Component {
 
@@ -12,13 +13,14 @@ class HeroesList extends React.Component {
   }
 
   render() {
-    const {heroes} = this.props
-    console.log(heroes);
+    const {heroes, filter} = this.props
+    console.log(this.props);
+    const filteredHeroes = heroes.filter(hero => hero.name.toLowerCase().includes(filter.toLowerCase()))
     return (
       <div>
         <SearchBox placeholder='search heroes' handleChange={this.handleChange} />
         <div className='hero'>
-          {heroes.map((hero, index) => (<Hero
+          {filteredHeroes.map((hero, index) => (<Hero
             key={index}
             name={hero.name}
             events={hero.series.items}
@@ -31,7 +33,7 @@ class HeroesList extends React.Component {
   }
 }
 
-const mapStateToProps = state => ({heroes: state});
+const mapStateToProps = state => ({heroes: state.heroes, filter: state.filter});
 
 const mapDispatchToProps = dispatch => {
   return {
