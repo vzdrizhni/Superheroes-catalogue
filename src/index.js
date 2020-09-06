@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import App from '../src/components/app/app';
 import { Provider } from 'react-redux';
 import store from './store/store';
+import { configureStoreAsync } from "../src/store/store";
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-);
+
+configureStoreAsync().then(result => {
+  ReactDOM.render(
+    <Provider store={result}>
+      <App />
+    </Provider>,
+    document.getElementById('root')
+  );
+})
+

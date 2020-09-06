@@ -10,12 +10,12 @@ class HeroesList extends React.Component {
 
   marvelHeroes = new MarvelHeroes();
 
-  componentDidMount() {
-    this
-      .marvelHeroes
-      .getAllCharacters()
-      .then(body => this.props.fillWithHeroes(body))
-  }
+  // componentDidMount() {
+  //   this
+  //     .marvelHeroes
+  //     .getAllCharacters()
+  //     .then(body => this.props.fillWithHeroes(body))
+  // }
 
   handleChange = (e) => {
     this.props.filterHeroes(e.target.value);
