@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '../src/components/app/app';
 import { Provider } from 'react-redux';
-import store from './store/store';
 import { configureStoreAsync } from "../src/store/store";
 
 

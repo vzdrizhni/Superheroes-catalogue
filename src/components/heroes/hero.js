@@ -9,9 +9,9 @@ const Hero = ({name, events, imgAdress, ext}) => {
         <div>{name}</div>
         {events
           .slice(0, 3)
-          .map(event => {
-            return <div>{event.name}</div>
-          })}
+          .map((event, index) => (
+            <div key={index}>{event.name}</div>
+          ))}
       </div>
     </div>
   )
