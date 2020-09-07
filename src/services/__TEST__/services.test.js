@@ -20,4 +20,5 @@ it('should return first arrays element name ', () => {
     heroes.getAllCharacters()
     .then(resp =>
         expect(resp[0].name).toBe('3-D Man'))
+        .catch(() => {})
 });
