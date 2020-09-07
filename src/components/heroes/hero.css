@@ -16,3 +16,19 @@
     opacity: 0.7;
     color: white;
 }
+
+.hero-card-single {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-card-single img {
+    width: 100%;
+}
+
+.hero-description {
+    background-color: lightslategray;
+    opacity: 0.9;
+    color:white;
+}

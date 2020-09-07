@@ -9,7 +9,9 @@ import {Link} from "react-router-dom";
 class HeroesList extends React.Component {
 
   handleChange = (e) => {
-    this.props.filterHeroes(e.target.value);
+    this
+      .props
+      .filterHeroes(e.target.value);
   }
 
   render() {
@@ -17,21 +19,19 @@ class HeroesList extends React.Component {
     const filteredHeroes = heroes.filter(hero => hero.name.toLowerCase().includes(filter.toLowerCase()))
     return (
       <div>
-        <SearchBox placeholder='search heroes' handleChange={this.handleChange} />
+        <SearchBox placeholder='search heroes' handleChange={this.handleChange}/>
         <div className='hero'>
           {filteredHeroes.map((hero, index) => (
             <Link to={`/${hero.id}`} key={hero.id}>
-            <Hero
-            key={index}
-            name={hero.name}
-            events={hero.series.items}
-            imgAdress={hero.thumbnail.path}
-            ext={hero.thumbnail.extension}
-            id = {hero.id}
-            heroes={filteredHeroes}
-          />
-          </Link>)
-          )}
+              <Hero
+                key={index}
+                name={hero.name}
+                events={hero.series.items}
+                imgAdress={hero.thumbnail.path}
+                ext={hero.thumbnail.extension}
+                id={hero.id}/>
+            </Link>
+          ))}
         </div>
       </div>
     )
