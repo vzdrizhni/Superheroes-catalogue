@@ -10,12 +10,11 @@ const initialState = {
   filter: '',
 };
 
-export const configureStoreAsync = async () => {
+export const configureStoreAsync = async () => { // eslint-disable-line import/prefer-default-export
   const initState = await heroes.getAllCharacters()
     .then(body => {
       initialState.heroes = body;
       const store = createStore(reducer, initialState);
-      console.log(store.getState());
       return store;
     });
   return initState;

@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 
 const Hero = ({
   name,
-  events,
   imgAdress,
   ext,
   match,
@@ -19,8 +18,8 @@ const Hero = ({
         </div>
       </div>
     );
-  } else {
-    const result = heroes.find(obj => obj.id == match.params.id);
+  } else { // eslint-disable-line no-else-return
+    const result = heroes.find(obj => obj.id == match.params.id); // eslint-disable-line eqeqeq
     const { name } = result;
     const events = result.series.items;
     const imgAdress = result.thumbnail.path;
@@ -40,8 +39,8 @@ const Hero = ({
           </p>
           {events
             .slice(0, 3)
-            .map((event, index) => (
-              <div key={index}>
+            .map(event => (
+              <div key={Math.random()}>
                 Event:
                 {event.name}
               </div>

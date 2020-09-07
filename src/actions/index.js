@@ -1,1 +1,3 @@
-export const filterHeroes = val => ({ type: 'FILTER', val });
+const filterHeroes = val => ({ type: 'FILTER', val });
+
+export default filterHeroes;
