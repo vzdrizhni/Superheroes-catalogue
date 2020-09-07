@@ -1,5 +1,3 @@
-const heroesReducer = (state=[]) => {
-    return state
-}
+const heroesReducer = (state = []) => state;
 
-export default heroesReducer
+export default heroesReducer;
