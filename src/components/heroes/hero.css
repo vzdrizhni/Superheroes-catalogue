@@ -1,11 +1,17 @@
 .hero-card {
-    width: 517px;
+    width: 100%;
     position: relative;
+    height: 500px;
+}
+
+.hero-card:hover {
+    opacity: 0.7;
 }
 
 .hero-card img {
     width: inherit;
-    height: 340px;
+    height: 100%;
+    border-radius: 30px;
 }
 
 .hero-info {
