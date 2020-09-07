@@ -20,6 +20,7 @@
     "react-scripts": "3.4.3",
     "redux": "^4.0.5",
     "redux-async-initial-state": "^0.3.0",
+    "stylelint": "^13.7.0",
     "stylelint-config-standard": "20.0.x",
     "stylelint-csstree-validator": "^1.8.0",
     "stylelint-scss": "3.17.x"

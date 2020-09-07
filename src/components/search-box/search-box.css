@@ -1,25 +1,25 @@
 input {
-    width: 33%;
-    height: 50px;
-    margin: 10px 0;
+  width: 33%;
+  height: 50px;
+  margin: 10px 0;
 }
 
 .search {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
 }
 
 input[type=text]:focus {
-    border: 3px solid #555;
+  border: 3px solid #555;
 }
