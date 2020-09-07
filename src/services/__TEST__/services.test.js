@@ -13,6 +13,7 @@ it('should return array of objects', () => {
     heroes.getAllCharacters()
     .then(resp =>
         expect(resp).toBe(array))
+        .catch(() => {})
 });
 
 it('should return first arrays element name ', () => {
