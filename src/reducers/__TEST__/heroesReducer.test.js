@@ -1,5 +1,5 @@
-import heroesReducer from "../heroes.reducer";
+import heroesReducer from '../heroes.reducer';
 
 it('should return state', () => {
-    expect(heroesReducer('SuperHero')).toBe('SuperHero')
+  expect(heroesReducer('SuperHero')).toBe('SuperHero');
 });
