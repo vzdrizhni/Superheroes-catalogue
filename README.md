@@ -1,68 +1,153 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Available Scripts
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-In the project directory, you can run:
 
-### `yarn start`
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/vzdrizhni//Superheroes-catalogue">
+    <img src="src/assets/microverse.png" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <h3 align="center">ReactJs --> [Superheroes-catalogue App]</h3>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <p align="center">
+    This is a Superheroes-catalogue app built with React.
+    <br />
+    <a href="https://github.com/vzdrizhni//Superheroes-catalogue"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/vzdrizhni//Superheroes-catalogue/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/vzdrizhni//Superheroes-catalogue/issues">Request Feature</a>
+  </p>
+</p>
 
-### `yarn test`
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+  * [Usage](#usage)
+  * [Automated Test](#automated-test)
+* [Contributors](#contributors)
+* [Acknowledgements](#acknowledgements)
+* [License](#license)
 
-### `yarn build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
+  The Superheroes-catalogue is an application, that emulates for a fictional company that requires help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that you will need to implement.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![screenshot-1](src/assets/screenshot.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Built With
+This project was built using these technologies.
+* HTML/CSS
+* ReactJs
+* JavaScript
+* Heroku Buildpack
+* ESLint
+* StyleLint
+* GithubActions :muscle:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- INSTALLATION -->
+## Usage
 
-### `yarn eject`
+To have this app on your pc, you need to:
+* [download](https://github.com/vzdrizhni//Superheroes-catalogue/archive/develop.zip) or clone this repo:
+  - Clone with SSH:
+  ```
+    git@github.com:vzdrizhni//Superheroes-catalogue.git
+  ```
+  - Clone with HTTPS
+  ```
+    https://github.com/vzdrizhni//Superheroes-catalogue.git
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* In the project directory, you can run:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - `$ npm install` - installs all the dependencies required by the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  - `$ npm start` - runs the app in the development mode:
+    - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    - The page will reload if you make edits.
+    - You will also see any lint errors in the console.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - `$ npm run test`
+    - Launches the test runner in the interactive watch mode.
+    - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Learn More
+  - `$ npm run build`
+    - Builds the app for production to the `build` folder.
+    - It correctly bundles React in production mode and optimizes the build for the best performance.
+    - The build is minified and the filenames include the hashes.
+    - Your app is ready to be deployed!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Automated Test
+ - `$ npm run test`
+    - Launches the test runner in the interactive watch mode.<br />
+    - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Live Demo & Deployment
+The project has been deployed with [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack#user-content-requires)
 
-### Code Splitting
+[Heroku Live Demo Link](https://bookstore-vzdrizhni.herokuapp.com/) :point_left:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<!-- CONTACT -->
+## Contributors
 
-### Analyzing the Bundle Size
+👤 **Roman Nikolaev**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- LinkedIn: [Roman Nikolaev]https://www.linkedin.com/in/romannikolaev/)
+- GitHub: [vzdrizhni](https://github.com/vzdrizhni)
+- E-mail: vzdrizhni@gmail.com
 
-### Making a Progressive Web App
+## :handshake: Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Contributions, issues and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](https://github.com/vzdrizhni//Superheroes-catalogue/issues).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Show your support
 
-### Deployment
+Give a :star: if you like this project!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Microverse](https://www.microverse.org/)
+* [The Odin Project](https://www.theodinproject.com/)
+* [React Documentation](https://reactjs.org/docs/getting-started.html)
+* [Heroku Documentation](https://devcenter.heroku.com/)
+* [Heroku Buildpack](https://github.com/mars/create-react-app-buildpack#user-content-requires)
 
-### `yarn build` fails to minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/vzdrizhni/Superheroes-catalogue.svg?style=flat-square
+[contributors-url]: https://github.com/vzdrizhni/Superheroes-catalogue/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vzdrizhni/Superheroes-catalogue.svg?style=flat-square
+[forks-url]: https://github.com/vzdrizhni/Superheroes-catalogue/network/members
+[stars-shield]: https://img.shields.io/github/stars/vzdrizhni/Superheroes-catalogue.svg?style=flat-square
+[stars-url]: https://github.com/vzdrizhni/Superheroes-catalogue/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vzdrizhni/Superheroes-catalogue.svg?style=flat-square
+[issues-url]: https://github.com/vzdrizhni/Superheroes-catalogue/issues
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
