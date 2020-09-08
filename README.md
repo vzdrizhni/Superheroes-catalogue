@@ -53,7 +53,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-  The Superheroes-catalogue is an application, that emulates for a fictional company that requires help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that you will need to implement.
+  The Superheroes-catalogue is a capstone project based on a catalog of statistics that is a browsable list of items and can be filtered and accessed the details of one item. The WebApp it has two types of pages, the main one with the list of elements to display and the second one with a single element displaying relevant information about that object. Each page has a unique route within the Single Page Application. The project retrieves data from an API and stores it in the Redux Store. Based on that API it is possible to filter the data using a Filter stateless component.
 
 ![screenshot-1](src/assets/screenshot.png)
 
@@ -83,32 +83,32 @@ To have this app on your pc, you need to:
 
 * In the project directory, you can run:
 
-  - `$ npm install` - installs all the dependencies required by the project
+  - `$ yarn install` - installs all the dependencies required by the project
 
-  - `$ npm start` - runs the app in the development mode:
+  - `$ yarn start` - runs the app in the development mode:
     - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     - The page will reload if you make edits.
     - You will also see any lint errors in the console.
 
-  - `$ npm run test`
+  - `$ yarn test`
     - Launches the test runner in the interactive watch mode.
     - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  - `$ npm run build`
+  - `$ yarn build`
     - Builds the app for production to the `build` folder.
     - It correctly bundles React in production mode and optimizes the build for the best performance.
     - The build is minified and the filenames include the hashes.
     - Your app is ready to be deployed!
 
 ## Automated Test
- - `$ npm run test`
+ - `$ yarn test`
     - Launches the test runner in the interactive watch mode.<br />
     - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Live Demo & Deployment
-The project has been deployed with [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack#user-content-requires)
+The project has been deployed with Github Pages.
 
-[Heroku Live Demo Link](https://bookstore-vzdrizhni.herokuapp.com/) :point_left:
+[Heroku Live Demo Link](https://vzdrizhni.github.io/Superheroes-catalogue/) :point_left:
 
 <!-- CONTACT -->
 ## Contributors
