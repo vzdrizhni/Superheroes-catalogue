@@ -22,7 +22,7 @@ class HeroesList extends React.Component {
         <SearchBox placeholder="search heroes" handleChange={this.handleChange} />
         <div className="hero">
           {filteredHeroes.map(hero => (
-            <Link to={`/${hero.id}`} key={hero.id}>
+            <Link to={`/Superheroes-catalogue/${hero.id}`} key={hero.id}>
               <Hero
                 key={hero.id}
                 name={hero.name}

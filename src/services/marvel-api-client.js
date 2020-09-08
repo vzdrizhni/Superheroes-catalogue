@@ -5,7 +5,7 @@ class MarvelHeroes {
 
   PUBLIC_KEY = 'e38349e2b82ef41ad55915dcb2284ac5';
 
-  baseUrl = 'http://gateway.marvel.com/v1/public/';
+  baseUrl = 'https://gateway.marvel.com/v1/public/';
 
   ts = new Date().getTime();
 

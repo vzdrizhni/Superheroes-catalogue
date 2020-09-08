@@ -9,10 +9,10 @@ import Header from '../header/header';
 const App = () => (
   <Router>
     <div className="App">
-      <Link to="/"><Header /></Link>
+      <Link to="/Superheroes-catalogue/"><Header /></Link>
       <Switch>
-        <Route exact path="/" component={HeroesList} />
-        <Route path="/:id" component={Hero} />
+        <Route exact path="/Superheroes-catalogue/" component={HeroesList} />
+        <Route path="/Superheroes-catalogue/:id" component={Hero} />
       </Switch>
     </div>
   </Router>
