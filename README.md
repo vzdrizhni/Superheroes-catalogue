@@ -106,7 +106,7 @@ To have this app on your pc, you need to:
     - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Live Demo & Deployment
-The project has been deployed with [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack#user-content-requires)
+The project has been deployed with Github Pages.
 
 [Heroku Live Demo Link](https://vzdrizhni.github.io/Superheroes-catalogue/) :point_left:
 
