@@ -2,7 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router, Route, Switch, Link,
 } from 'react-router-dom';
-import HeroesList from '../heroes-list/heroes-list';
+import HeroesList from '../heroes-list/heroes-list'; // eslint-disable-line import/no-named-as-default-member, import/no-named-as-default
 import Hero from '../heroes/hero';
 import Header from '../header/header';
 
