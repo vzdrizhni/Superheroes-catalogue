@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Superheroes-catalogue/static/css/main.16a7d01c.chunk.css",
+    "main.js": "/Superheroes-catalogue/static/js/main.b2bf856a.chunk.js",
+    "main.js.map": "/Superheroes-catalogue/static/js/main.b2bf856a.chunk.js.map",
+    "runtime-main.js": "/Superheroes-catalogue/static/js/runtime-main.2eaa01da.js",
+    "runtime-main.js.map": "/Superheroes-catalogue/static/js/runtime-main.2eaa01da.js.map",
+    "static/js/2.4202e31c.chunk.js": "/Superheroes-catalogue/static/js/2.4202e31c.chunk.js",
+    "static/js/2.4202e31c.chunk.js.map": "/Superheroes-catalogue/static/js/2.4202e31c.chunk.js.map",
+    "index.html": "/Superheroes-catalogue/index.html",
+    "precache-manifest.afae921e5751afceca3b5af7dfd055a8.js": "/Superheroes-catalogue/precache-manifest.afae921e5751afceca3b5af7dfd055a8.js",
+    "service-worker.js": "/Superheroes-catalogue/service-worker.js",
+    "static/css/main.16a7d01c.chunk.css.map": "/Superheroes-catalogue/static/css/main.16a7d01c.chunk.css.map",
+    "static/js/2.4202e31c.chunk.js.LICENSE.txt": "/Superheroes-catalogue/static/js/2.4202e31c.chunk.js.LICENSE.txt",
+    "static/media/Marvel-Logo.png": "/Superheroes-catalogue/static/media/Marvel-Logo.78f339d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2eaa01da.js",
+    "static/js/2.4202e31c.chunk.js",
+    "static/css/main.16a7d01c.chunk.css",
+    "static/js/main.b2bf856a.chunk.js"
+  ]
+}
