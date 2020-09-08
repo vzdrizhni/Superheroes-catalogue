@@ -2,11 +2,15 @@ input {
   width: 33%;
   height: 50px;
   margin: 10px 0;
+  padding-left: 15px;
+  font-size: 25px;
+  outline: none;
 }
 
 .search {
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 input[type=text] {
@@ -17,7 +21,6 @@ input[type=text] {
   border: 3px solid #ccc;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  outline: none;
 }
 
 input[type=text]:focus {
