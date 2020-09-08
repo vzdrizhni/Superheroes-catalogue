@@ -110,6 +110,10 @@ The project has been deployed with Github Pages.
 
 [Heroku Live Demo Link](https://vzdrizhni.github.io/Superheroes-catalogue/) :point_left:
 
+## WalkThrough Video:
+https://www.loom.com/share/247c5bf9e10e4c40a41de4c2a186b64f
+
+
 <!-- CONTACT -->
 ## Contributors
 
