@@ -12,7 +12,7 @@ const App = () => (
       <Link to="/Superheroes-catalogue/"><Header /></Link>
       <Switch>
         <Route exact path="/Superheroes-catalogue/" component={HeroesList} />
-        <Route path="/Superheroes-catalogue/:id" component={Hero} />
+        <Route exact path="/Superheroes-catalogue/:id" component={Hero} />
       </Switch>
     </div>
   </Router>
