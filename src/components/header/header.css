@@ -1,0 +1,11 @@
+.marvel-pic {
+  width: 33%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+}
+
+.marvel-pic img {
+  height: 100%;
+  width: 100%;
+}

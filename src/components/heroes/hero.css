@@ -1,0 +1,41 @@
+.hero-card {
+  width: 100%;
+  position: relative;
+  height: 500px;
+}
+
+.hero-card:hover {
+  opacity: 0.7;
+}
+
+.hero-card img {
+  width: inherit;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.hero-info {
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  background: black;
+  opacity: 0.7;
+  color: white;
+}
+
+.hero-card-single {
+  margin-top: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-card-single img {
+  width: 100%;
+}
+
+.hero-description {
+  background-color: lightslategray;
+  opacity: 0.9;
+  color: white;
+}
